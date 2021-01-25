@@ -50,7 +50,5 @@ The analysis requested are:
         
      - By type: Again no signifance variance were notices.
       ![By Type analysis before vs after](Resources/By_Type_analysis_before_vs_after.png)
-
 ## Summary
-
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
