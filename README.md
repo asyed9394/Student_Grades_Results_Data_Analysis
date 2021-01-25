@@ -38,12 +38,22 @@ The analysis requested are:
  
 - Below is the breakdown of analysis by other aggregation levels:
     - Math and reading scores by grade:
-        -The average Math and Reading score by grade was affected only for Thomas High School grade 9. It was not calculated (NaN)
-        ![Thomas High School Grade Scores after](Resources/Thomas_High_School_Grade_score.png)
-    - Scores by school spending:
+        -The average Math and Reading score by grade was affected only for Thomas High School grade 9.It was not calculated (NaN)
         
-Scores by school size
-Scores by school type
+        ![Thomas High School Grade Scores after](Resources/Thomas_High_School_Grade_score.png)
+    
+    - Scores by school spending: No significant variance found by spend grouping.
+        
+        ![By Spend analysis before vs after](Resources/By_Spend_analysis_before_vs_after.png)
+       
+     - By School Size: No signficant change noticed.
+     
+        ![By Size analysis before vs after](Resources/By_Size_analysis_before_vs_after.png)
+        
+      - By type: Again no signifance variance were notices.
+      
+        ![By Type analysis before vs after](Resources/By_Type_analysis_before_vs_after.png)
+
 ## Summary
 
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
