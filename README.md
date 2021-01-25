@@ -51,4 +51,9 @@ The analysis requested are:
      - By type: Again no signifance variance were notices.
       ![By Type analysis before vs after](Resources/By_Type_analysis_before_vs_after.png)
 ## Summary
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Below are some changes noticed in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+- % Passing Reading is down by 1% for Charter schools type. (Most likely due to rounding)
+- % Passing Reading is down by 1% for scchools with spending range from $630 to $644 (most likely due to rounding)
+- Average grading score for math and reading can't not be evaluated for Grade 9's students at the Thomas High School
+- Overall Passing %age for Thomas High School was slighly donw by .3% 
