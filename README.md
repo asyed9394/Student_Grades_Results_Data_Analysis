@@ -44,15 +44,12 @@ The analysis requested are:
     
     - Scores by school spending: No significant variance found by spend grouping.
         
-        ![By Spend analysis before vs after](Resources/By_Spend_analysis_before_vs_after.png)
-       
-     - By School Size: No signficant change noticed.
-     
+        ![By Spend analysis before vs after](Resources/By_Spend_analysis_before_vs_after.png)       
+     - By School Size: No signficant change noticed.     
         ![By Size analysis before vs after](Resources/By_Size_analysis_before_vs_after.png)
         
-      - By type: Again no signifance variance were notices.
-      
-        ![By Type analysis before vs after](Resources/By_Type_analysis_before_vs_after.png)
+     - By type: Again no signifance variance were notices.
+      ![By Type analysis before vs after](Resources/By_Type_analysis_before_vs_after.png)
 
 ## Summary
 
