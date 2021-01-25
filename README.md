@@ -29,14 +29,19 @@ The analysis requested are:
 ## Analysis Results
 - After removing grade 9th math and reading score at Thomas High School, no major variance was noticed in all metrics reporting at the district level.
      ![District analysis before vs after](Resources/District_Summary_Before_Vs_After.png)
-- As school summary is by school, the reported metrics affect Thomas High Schoo only. However once the % Passing metrics were adjusted by removing grade 9 students, the variance in these metrics was also negligiable.
+- As school summary is by school, the reported metrics affected Thomas High School reporting only. No other school reported metrics were impacted.
+
+- When the analysis run with null math and reading score for grade 9, the % Passing metrics were impacted significantly as the denominator included grade 9 student. After adjusting the analysis to calculate % metrics excluding grade 9 students counts, we noticed there was not a big variance in any reported metrics for the School analysis.
     ![Thomas High School reporting before vs after](Resources/Compare_Thomas_High_school_before_vs_after.png)
+    
+- Based on the above the Thomas High School performance was not impacted when grade 9 were scores were from the analysis as long as we removed student counts from the % Passing metric calculations.
  
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
+- Below is the breakdown of analysis by other aggregation levels:
+    - Math and reading scores by grade:
+        -The average Math and Reading score by grade was affected only for Thomas High School grade 9. It was not calculated (NaN)
+        ![Thomas High School Grade Scores after](Resources/Thomas_High_School_Grade_score.png)
+    - Scores by school spending:
+        
 Scores by school size
 Scores by school type
 ## Summary
